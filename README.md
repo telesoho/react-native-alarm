@@ -21,7 +21,7 @@
 
 #### Android
 
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
+1. Open up `android/app/src/main/java/[...]/MainApplication.java`
   - Add `import com.liang.RNAlarmPackage;` to the imports at the top of the file
   - Add `new RNAlarmPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
@@ -40,8 +40,8 @@
 import RNAlarm from 'react-native-alarm';
 
 // TODO: What to do with the module?
-RNAlarm.setAlarm('Meeting',
-        'Meeting with customer',
+RNAlarm.setAlarm('triggerTime',
+        'Title',
         '', 
         '',
      () => {
