@@ -3,7 +3,7 @@
 
 ## Getting started
 
-`$ npm install react-native-alarm --save`
+`$ npm install git+https://github.com/telesoho/react-native-alarm.git --save`
 
 ### Mostly automatic installation
 
